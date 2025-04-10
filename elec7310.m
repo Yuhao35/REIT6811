@@ -23,3 +23,4 @@ fprintf('A-type chair production quantity: %.2f\n', x_opt(1));
 fprintf('B-type chair production quantity: %.2f\n', x_opt(2));
 fprintf('Maximum profit: %.2f\n', -fval_opt); % Add a minus sign to convert the minimum value back to the maximum value
 % Display results
+fprintf('Maximum profit: %.2f\n', -fval_opt);
